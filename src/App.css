@@ -1,0 +1,28 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: black;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.left-section {
+  flex: 3;
+  min-width: 0;
+}
+
+.right-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .right-section {
+    min-width: 100%;
+  }
+}

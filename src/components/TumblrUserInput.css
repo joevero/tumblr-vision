@@ -1,0 +1,96 @@
+.tumblr-user-input {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 2rem;
+  }
+  
+  .tumblr-user-input h2 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .avatar-container {
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .user-avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .error-avatar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 0, 0, 0.3);
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .input-form {
+    flex: 1;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .input-wrapper {
+    flex: 1;
+    position: relative;
+  }
+  
+  .at-symbol {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  input.error {
+    border-color: rgba(255, 0, 0, 0.5);
+  }
+  
+  .change-button {
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+  }
+  
+  .change-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: rgba(255, 0, 0, 0.8);
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
